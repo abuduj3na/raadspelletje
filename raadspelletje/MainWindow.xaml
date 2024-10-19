@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Geef en getal tussen 1 en 100:" HorizontalAlignment="Left" Margin="110,154,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="output1TextBox" HorizontalAlignment="Left" Margin="110,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203"/>
+        <TextBox x:Name="output2TextBox" HorizontalAlignment="Left" Margin="110,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="203"/>
+        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" Margin="284,158,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="29" />
+        <Button x:Name="evaluateButton" Content="Evalueer" HorizontalAlignment="Left" Margin="376,154,0,0" VerticalAlignment="Top" Height="24" Width="65" Click="evaluateButton_Click"/>
+        <Button x:Name="newButton" Content="Nieuw" HorizontalAlignment="Left" Margin="376,186,0,0" VerticalAlignment="Top" Height="24" Width="65" Click="newButton_Click"/>
+        <Button x:Name="endButton" Content="Einde" HorizontalAlignment="Left" Margin="376,217,0,0" VerticalAlignment="Top" Height="24" Width="65" Click="endButton_Click"/>
 
     </Grid>
 </Window>
